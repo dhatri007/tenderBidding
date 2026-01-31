@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Apex Ultima",
+    "type": "exterior",
+    "finish": "matte",
+    "VOC": "low",
+    "voc": "low",
+    "coverage": 120,
+    "price_per_litre": 350,
+    "packaging": "20L",
+    "location": "Bengaluru"
+  },
+  {
+    "name": "Apex WeatherShield",
+    "type": "exterior",
+    "finish": "smooth",
+    "VOC": "medium",
+    "voc": "medium",
+    "coverage": 110,
+    "price_per_litre": 320,
+    "packaging": "20L",
+    "location": "Delhi"
+  },
+  {
+    "name": "Apex Advanced",
+    "type": "exterior",
+    "finish": "matte",
+    "VOC": "low",
+    "voc": "low",
+    "coverage": 130,
+    "price_per_litre": 370,
+    "packaging": "10L",
+    "location": "Mumbai"
+  },
+  {
+    "name": "Royale Luxury Emulsion",
+    "type": "interior",
+    "finish": "satin",
+    "VOC": "ultra-low",
+    "voc": "ultra-low",
+    "coverage": 140,
+    "price_per_litre": 450,
+    "packaging": "10L",
+    "location": "Bengaluru"
+  },
+  {
+    "name": "Royale Matt",
+    "type": "interior",
+    "finish": "matte",
+    "VOC": "low",
+    "voc": "low",
+    "coverage": 130,
+    "price_per_litre": 380,
+    "packaging": "20L",
+    "location": "Hyderabad"
+  },
+  {
+    "name": "Tractor Emulsion",
+    "type": "interior",
+    "finish": "matte",
+    "VOC": "medium",
+    "voc": "medium",
+    "coverage": 100,
+    "price_per_litre": 220,
+    "packaging": "20L",
+    "location": "Chennai"
+  },
+  {
+    "name": "SmartCare Damp Proof",
+    "type": "waterproofing",
+    "finish": "matte",
+    "VOC": "low",
+    "voc": "low",
+    "coverage": 70,
+    "price_per_litre": 480,
+    "packaging": "20L",
+    "location": "Bengaluru"
+  },
+  {
+    "name": "SmartCare Damp Block",
+    "type": "waterproofing",
+    "finish": "smooth",
+    "VOC": "medium",
+    "voc": "medium",
+    "coverage": 60,
+    "price_per_litre": 420,
+    "packaging": "10L",
+    "location": "Delhi"
+  },
+  {
+    "name": "Premium Enamel",
+    "type": "enamel",
+    "finish": "gloss",
+    "VOC": "medium",
+    "voc": "medium",
+    "coverage": 90,
+    "price_per_litre": 300,
+    "packaging": "4L",
+    "location": "Mumbai"
+  },
+  {
+    "name": "Apcolite Enamel",
+    "type": "enamel",
+    "finish": "semi-gloss",
+    "VOC": "low",
+    "voc": "low",
+    "coverage": 85,
+    "price_per_litre": 280,
+    "packaging": "4L",
+    "location": "Hyderabad"
+  }
+]

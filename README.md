@@ -1,4 +1,3 @@
-# tenderBidding
 # AI Tender Automation System – FMCG (Asian Paints Use Case)
 
 ## Problem Overview

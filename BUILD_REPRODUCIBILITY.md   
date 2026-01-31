@@ -1,0 +1,14 @@
+## Build Reproducibility Instructions
+
+The project can be reproduced on any machine using:
+
+- Python 3.10+
+- Node.js 18+
+
+Steps:
+1. Clone the repository
+2. Follow setup instructions for backend
+3. Follow setup instructions for frontend
+4. Use sample tender PDF from /demo folder
+
+No external paid APIs required.

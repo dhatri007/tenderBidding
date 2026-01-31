@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1765526616771,
+    "timestamp": "2025-12-12T13:33:36.771314",
+    "tender_name": "Auto tender - 12/12/2025, 1:33:36 pm",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": ""
+  },
+  {
+    "id": 1765526087826,
+    "timestamp": "2025-12-12T13:24:47.826798",
+    "tender_name": "Auto tender - 12/12/2025, 1:24:47 pm",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": ""
+  },
+  {
+    "id": 1765523433641,
+    "timestamp": "2025-12-12T12:40:33.641397",
+    "tender_name": "Auto tender - 12/12/2025, 12:40:33 pm",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": ""
+  },
+  {
+    "id": 1765523398285,
+    "timestamp": "2025-12-12T12:39:58.285314",
+    "tender_name": "Auto tender - 12/12/2025, 12:39:58 pm",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": ""
+  },
+  {
+    "id": 1765450306403,
+    "timestamp": "2025-12-11T16:21:46.403671",
+    "tender_name": "Auto tender - 11/12/2025, 16:21:46",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": ""
+  },
+  {
+    "id": 1765446197147,
+    "timestamp": "2025-12-11T15:13:17.147242",
+    "tender_name": "Auto tender - 11/12/2025, 15:13:17",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": "%PDF-1.3\n% ReportLab Generated PDF document (opensource)\n1 0 obj\n<<\n/F1 2 0 R /F2 3 0 R\n>>\nendobj\n2 0 obj\n<<\n/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font\n>>\nendobj\n3 0 obj\n<<\n/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font\n>>\nendobj\n4 0 obj\n<<\n/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<\n/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]\n>> /Rotate 0 /Trans <<\n\n>> \n  /Type /Page\n>>\nendobj\n5 0 obj\n<<\n/PageMode /UseNone /Pages 7 0 R /Type /Catalog\n>>\nendobj\n6 0 obj\n<<\n/Author (anonymous) /CreationDate (D:20251211150840+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20251211150840+05'00') /Producer (ReportLab PDF Library - \\(opensource\\)) \n  /Subject (unspecified) /Title (untitled) /Trapped /False\n>>\nendobj\n7 0 obj\n<<\n/Count 1 /Kids [ 4 0 R ] /Type /Pages\n>>\nendobj\n8 0 obj\n<<\n/Filter [ /ASCII85Decode /FlateDecode ] /Length 1450\n>>\nstream\nGat=*gJ6d\"&:L1SW#&L=,!G>e-+9G3lO!q8Q?[R[OB*C6SFhd-%dc09d=2\"ZgI]I;/3sgRfe(hCS5WGT!N2RQroZ/SE<`&]4n&Sb-$TFu+M3<5m#sLIFQ1Rj(-eF<.i4o\"\\F:^Dj+O`uMEJspfKX,9Cu@d_`jTh6`#-cQY)b1Y41d[>]7nAYj/\\*[jPnAU!G((1qfNRrK>bagDo[`Ek/E/bQ!mUa8`?VS)Q\\;]g$)/q0OWZDa3OU,CsY_271+X)E9)k<7nA:^O8k[g!TCTMHm[]B:4t0U&q;DnQumI&c16M;nsCEj,h+Jaee)fi^/G5OCb2+A]Q4TB7Xr>2VJu6>d3rki03M9W0<1H5bX?F#2(DZ8=huAUCL%st0fCgjFf'diZr0n@$DVb/qceW[r'$j^F#49\"FU;/o<NC3DM`q]2i*8.>SYpEQX[RP#d16BV%#M@qR67I;(oW`G5S!0EP]d^W6)@T(Rbm=j:/]ehR6o+X+-'Pd^QJ>93MUnH$85iAjkl22[kLpY0j)dMVcYAT\\V*VH91u7\\>=Ca-G(R`6;@T8*CJ7;<Qhh<nr,Qf`XXqjP+kQC],)KM`.LO^U:%2G(MZhReDQJu2,uj04[=D!+;>sVH<8o6(Z-Glu\"f85W0\"8am2.CLrTT!c7Pf`MHC2<'DBo84):n#ck@,=LI,b06Wb`hqM]hhr8/&#BUeDnjQCX+.?,pMk%$HL?urQmR>QF13=TAXKRV9Ao'ac19_=;(4*dju;GN%8c4Z4o$Oq088gCSB:lcup;TTSn2IQm+q9$C-(qA]$M9+s&b6??[jbYR'9FM0M-JriCHEq?K\"h_iT.+o%3OIIj_h1dH$0+O&Z4)q^kjup8%WN''u.\"A?Ms7IXt#>N(@__3E=QlbI`B;&KU^&j%2@t1g,S`<1E363b\"0(OR^\"i\\-S]Q+qt-BRkDJ10Dgq#%T7&>Af$.E:Y9pR,L_(=9W<JDpNaEp6'-aN*65rH3.\"g;V%?>)\"k3?2NFVOt#;o@?Q&7V*)B)8"
+  },
+  {
+    "id": 1765439870551,
+    "timestamp": "2025-12-11T13:27:50.551928",
+    "tender_name": "Auto tender - 11/12/2025, 13:27:50",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": "\n    <html><head><meta charset='utf-8' /><title>Tender Proposal</title>\n    <style>body{font-family:Arial;color:#222}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:8px}</style>\n    </head><body>\n    <h1>Proposal / Quotation</h1>\n    <p><strong>Date:</strong> 2025-12-11 13:26</p>\n    <h3>Summary</h3><pre>Tender Requirement Document Project: Exterior Wall Painting – Municipal School, Bengaluru Details: -\nRequirement: Exterior weatherproof emulsion paint - Finish: Matte - Coverage: Approximately 120 sq ft\nper litre - Quantity: 8000 litres - Packaging: 20L buckets preferred - Delivery Location: Bengaluru -\nCertifications Required: Low VOC, safety compliant Additional Notes: Contractor must ensure timely\ndelivery and product must meet environmental safety standards.\n</pre>\n    <h3>Chosen product</h3><p><strong>Apex Ultima</strong> - exterior / finish: matte</p>\n    <h3>Pricing</h3>\n    <table>\n    <tr><th>Base price</th><td>350.0</td></tr>\n    <tr><th>Logistics</th><td>17.5</td></tr>\n    <tr><th>Tax</th><td>63.0</td></tr>\n    <tr><th>Final/l (before disc)</th><td>430.5</td></tr>\n    <tr><th>Discount %</th><td>2.0</td></tr>\n    <tr><th>Final/l (after disc)</th><td>421.89</td></tr>\n    <tr><th>Quantity (L)</th><td>8000</td></tr>\n    <tr><th>Total</th><td>3375120.0</td></tr>\n    </table>\n    <h4>Alternative products considered</h4><ul><li>Apex Advanced (type: exterior, finish: matte, price/l: 370)</li><li>Apex WeatherShield (type: exterior, finish: smooth, price/l: 320)</li><li>Royale Matt (type: interior, finish: matte, price/l: 380)</li></ul>\n    <h4>Terms</h4><ul><li>Delivery depends on location</li><li>Payment 30% advance</li></ul>\n    </body></html>\n    "
+  },
+  {
+    "id": 1765439116097,
+    "timestamp": "2025-12-11T13:15:16.097194",
+    "tender_name": "Auto tender - 11/12/2025, 13:15:16",
+    "chosen_product_name": "Apex Ultima",
+    "chosen_product_type": "exterior",
+    "pricing": {
+      "base_price": 350,
+      "logistics": 17.5,
+      "tax": 63,
+      "final_per_l_before_discount": 430.5,
+      "discount_pct": 2,
+      "final_per_l_after_discount": 421.89,
+      "quantity_litres": 8000,
+      "total_cost": 3375120
+    },
+    "quantity": 8000,
+    "match_score": 1,
+    "outcome": "pending",
+    "proposal_html": "\n    <html><head><meta charset='utf-8' /><title>Tender Proposal</title>\n    <style>body{font-family:Arial;color:#222}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:8px}</style>\n    </head><body>\n    <h1>Proposal / Quotation</h1>\n    <p><strong>Date:</strong> 2025-12-11 13:09</p>\n    <h3>Summary</h3><pre>Tender Requirement Document Project: Exterior Wall Painting – Municipal School, Bengaluru Details: -\nRequirement: Exterior weatherproof emulsion paint - Finish: Matte - Coverage: Approximately 120 sq ft\nper litre - Quantity: 8000 litres - Packaging: 20L buckets preferred - Delivery Location: Bengaluru -\nCertifications Required: Low VOC, safety compliant Additional Notes: Contractor must ensure timely\ndelivery and product must meet environmental safety standards.\n</pre>\n    <h3>Chosen product</h3><p><strong>Apex Ultima</strong> - exterior / finish: matte</p>\n    <h3>Pricing</h3>\n    <table>\n    <tr><th>Base price</th><td>350.0</td></tr>\n    <tr><th>Logistics</th><td>17.5</td></tr>\n    <tr><th>Tax</th><td>63.0</td></tr>\n    <tr><th>Final/l (before disc)</th><td>430.5</td></tr>\n    <tr><th>Discount %</th><td>2.0</td></tr>\n    <tr><th>Final/l (after disc)</th><td>421.89</td></tr>\n    <tr><th>Quantity (L)</th><td>8000</td></tr>\n    <tr><th>Total</th><td>3375120.0</td></tr>\n    </table>\n    <h4>Alternative products considered</h4><ul><li>Apex Advanced (type: exterior, finish: matte, price/l: 370)</li><li>Apex WeatherShield (type: exterior, finish: smooth, price/l: 320)</li><li>Royale Matt (type: interior, finish: matte, price/l: 380)</li></ul>\n    <h4>Terms</h4><ul><li>Delivery depends on location</li><li>Payment 30% advance</li></ul>\n    </body></html>\n    "
+  }
+]
