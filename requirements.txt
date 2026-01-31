@@ -1,7 +1,8 @@
 fastapi
 uvicorn
-pydantic
+pandas
 python-multipart
-pymupdf
+PyMuPDF
 reportlab
-
+pydantic
+typing-extensions
