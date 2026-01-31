@@ -12,7 +12,7 @@ AI Tender Automation System is an end-to-end, agentic AI platform that:
 - Generates final tender proposal PDFs automatically
 
 ## Architecture
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](diagrams/architecture.jpg)
 
 ## Tech Stack
 - Backend: Python, FastAPI

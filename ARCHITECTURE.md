@@ -7,7 +7,7 @@ Frontend (React)
 → AI Engines
 → Data Store
 
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](diagrams/architecture.jpg)
 
 Components:
 - Tender PDF Extraction Engine
