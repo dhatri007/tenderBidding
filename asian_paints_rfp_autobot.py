@@ -567,3 +567,29 @@ async def list_proposals():
 # -------------------------
 # End of file
 # -------------------------
+@app.get("/quick_profile")
+def quick_profile():
+    return {
+        "company": "Asian Paints",
+        "category": "FMCG - Paints",
+        "strengths": ["Wide product range", "Strong logistics", "Brand trust"],
+        "experience": "20+ years in government & B2B tenders"
+    }
+
+
+@app.get("/bid_recommendations")
+def bid_recommendations():
+    return {
+        "recommended_bid_price": "₹12.5 Crores",
+        "margin": "14%",
+        "win_probability": "78%",
+        "strategy": "Competitive pricing with volume discount"
+    }
+
+
+@app.get("/generate_proposal_pdf")
+def generate_proposal_pdf():
+    return {
+        "status": "success",
+        "message": "Final proposal PDF generated (demo mode)"
+    }

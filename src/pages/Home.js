@@ -1,74 +1,82 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-/**
- * Backend URL
- * - Uses deployed backend in production
- * - Falls back to localhost during local development
- */
-const BACKEND_URL =
-  process.env.REACT_APP_BACKEND_URL ||
-  "https://tenderbidding-2.onrender.com";
+/* 🔗 BACKEND URL (Render) */
+const BACKEND_URL = "https://tenderbidding-2.onrender.com";
 
 export default function Home() {
   const [file, setFile] = useState(null);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  /* 📄 Process Tender PDF */
   const processTender = async () => {
     if (!file) {
       alert("Please upload a tender PDF");
       return;
     }
 
-    const formData = new FormData();
-    formData.append("file", file);
-
     try {
       setLoading(true);
+      const formData = new FormData();
+      formData.append("file", file);
 
       const res = await axios.post(
         `${BACKEND_URL}/process_tender_pdf`,
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
+        formData
       );
 
       setResult(res.data);
-    } catch (error) {
-      console.error("Tender processing failed:", error);
-      alert("Failed to process tender. Please try again.");
+    } catch (err) {
+      alert("Failed to process tender");
+      console.error(err);
     } finally {
       setLoading(false);
     }
   };
 
+  /* 👤 Quick Profile */
+  const viewProfile = async () => {
+    const res = await axios.get(`${BACKEND_URL}/quick_profile`);
+    alert(JSON.stringify(res.data, null, 2));
+  };
+
+  /* 💰 Bid Recommendation */
+  const getBidRecommendations = async () => {
+    const res = await axios.get(`${BACKEND_URL}/bid_recommendations`);
+    alert(JSON.stringify(res.data, null, 2));
+  };
+
+  /* 📑 Proposal PDF */
+  const generateProposal = async () => {
+    const res = await axios.get(`${BACKEND_URL}/generate_proposal_pdf`);
+    alert(res.data.message);
+  };
+
   return (
-    <div style={{ padding: 24 }}>
+    <div style={{ padding: 32 }}>
       {/* UPLOAD CARD */}
       <div
         style={{
-          maxWidth: 640,
+          maxWidth: 650,
           margin: "0 auto",
           background: "#f3eef9",
-          padding: 28,
-          borderRadius: 16,
-          boxShadow: "0 12px 30px rgba(0,0,0,0.15)",
+          padding: 32,
+          borderRadius: 18,
+          boxShadow: "0 12px 32px rgba(0,0,0,0.15)",
         }}
       >
-        <h2 style={{ marginBottom: 16 }}>
+        <h2 style={{ marginBottom: 20 }}>
           Upload Your Tender Document
         </h2>
 
-        <div style={{ marginBottom: 16 }}>
-          <label className="small">Browse Tender PDF</label>
+        <div style={{ marginBottom: 18 }}>
+          <div className="small" style={{ marginBottom: 6 }}>
+            Browse Tender PDF
+          </div>
           <input
             type="file"
             className="input"
-            style={{ marginTop: 6 }}
             onChange={(e) => setFile(e.target.files[0])}
           />
         </div>
@@ -83,13 +91,13 @@ export default function Home() {
         </button>
       </div>
 
-      {/* SUMMARY */}
+      {/* SUMMARY SECTION */}
       {result && (
         <>
           <div
             className="card"
             style={{
-              marginTop: 32,
+              marginTop: 36,
               maxWidth: 900,
               marginInline: "auto",
             }}
@@ -107,6 +115,7 @@ export default function Home() {
                 whiteSpace: "pre-wrap",
                 fontSize: 14,
                 overflowWrap: "break-word",
+                lineHeight: 1.6,
               }}
             >
               {JSON.stringify(result.summary || result, null, 2)}
@@ -123,15 +132,15 @@ export default function Home() {
               flexWrap: "wrap",
             }}
           >
-            <button className="button secondary">
+            <button className="button secondary" onClick={viewProfile}>
               View Quick Profile Summary
             </button>
 
-            <button className="button secondary">
+            <button className="button secondary" onClick={getBidRecommendations}>
               Get Bid Recommendations
             </button>
 
-            <button className="button">
+            <button className="button" onClick={generateProposal}>
               Generate Final Proposal PDF
             </button>
           </div>
