@@ -1,9 +1,19 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+/**
+ * Backend URL
+ * - Uses deployed backend in production
+ * - Falls back to localhost during local development
+ */
+const BACKEND_URL =
+  process.env.REACT_APP_BACKEND_URL ||
+  "https://tenderbidding-2.onrender.com";
+
 export default function Home() {
   const [file, setFile] = useState(null);
   const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const processTender = async () => {
     if (!file) {
@@ -14,8 +24,26 @@ export default function Home() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await axios.post("/process_tender_pdf", formData);
-    setResult(res.data);
+    try {
+      setLoading(true);
+
+      const res = await axios.post(
+        `${BACKEND_URL}/process_tender_pdf`,
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+
+      setResult(res.data);
+    } catch (error) {
+      console.error("Tender processing failed:", error);
+      alert("Failed to process tender. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -49,8 +77,9 @@ export default function Home() {
           className="button"
           style={{ width: "50%", marginTop: 12 }}
           onClick={processTender}
+          disabled={loading}
         >
-          Generate Tender Summary
+          {loading ? "Processing..." : "Generate Tender Summary"}
         </button>
       </div>
 
