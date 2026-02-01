@@ -3,7 +3,7 @@ import axios from "axios";
 
 const BACKEND_URL =
   process.env.REACT_APP_BACKEND_URL ||
-  "https://tenderbidding-2.onrender.com";
+  "https://tenderbidding-4.onrender.com";
 
 export default function UploadProducts() {
   const [file, setFile] = useState(null);
